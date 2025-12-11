@@ -1,6 +1,6 @@
 {
-  "latestVersionCode": 4,
-  "latestVersionName": "1.3.0",
-  "downloadUrl": "https://github.com/achsyarif/keluarga.syarif/releases/download/1.3/app-debug.apk",
-  "releaseNotes": "Perbaikan Home Control, Navigasi, dan Nav bar. (Always Clear Data Action)"
+  "latestVersionCode": 5,
+  "latestVersionName": "1.4.0",
+  "downloadUrl": "https://github.com/achsyarif/keluarga.syarif/releases/download/1.4/app-debug.apk",
+  "releaseNotes": "Perbaikan Home Control, Panambahan Daftar barang, menambahkah kasir pintar, perbaikan timestamp, perbaikan bug."
 }
