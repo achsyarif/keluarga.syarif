@@ -1,0 +1,15 @@
+<resources>
+<style name="Theme.KeluargaSyarif" parent="Theme.Material3.DayNight.NoActionBar">
+</style>
+
+<style name="Theme.App.Starting" parent="Theme.SplashScreen">
+    <!-- Set latar belakang ke warna putih -->
+    <item name="windowSplashScreenBackground">@android:color/white</item>
+
+    <!-- Set ikon di tengah ke ic_launcher -->
+    <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+    <item name="postSplashScreenTheme">@style/Theme.KeluargaSyarif</item>
+</style>
+    <!--<style name="Theme.KeluargaSyarif" parent="Base.Theme.KeluargaSyarif" />-->
+</resources>
