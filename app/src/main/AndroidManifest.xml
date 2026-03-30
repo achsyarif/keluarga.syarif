@@ -4,14 +4,10 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <!-- Izin Kamera -->
     <uses-permission android:name="android.permission.CAMERA" />
-    <!-- Izin Getar (Vibrate) -->
     <uses-permission android:name="android.permission.VIBRATE" />
-    <!-- Izin Rekam Suara (Jika aplikasi butuh merekam audio) -->
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <!-- Menyatakan bahwa aplikasi menggunakan fitur kamera (opsional tapi disarankan) -->
-    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
@@ -27,12 +23,12 @@
         android:theme="@style/Theme.KeluargaSyarif"
         android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true">
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize"
-            android:theme="@style/Theme.App.Starting">
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
